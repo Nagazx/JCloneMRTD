@@ -45,10 +45,6 @@ replay_pid*
 # .idea/dynamic.xml
 # .idea/uiDesigner.xml
 
-# Gradle:
-# .idea/gradle.xml
-# .idea/libraries
-
 # Mongo Explorer plugin:
 # .idea/mongoSettings.xml
 
@@ -64,15 +60,9 @@ replay_pid*
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
-### Gradle ###
-.gradle
-build/
+# Mac
+.DS_Store
 
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
+# Maven
+log/
+target/
